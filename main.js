@@ -55,5 +55,4 @@ $(function () {
     let id = url.split('/').reverse()[1];
     return id.toString().padStart(3, "000")
   }
-
 });
